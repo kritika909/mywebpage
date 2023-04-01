@@ -30,7 +30,8 @@
             font-size:larger;
             color: #49592a;
             text-align: center;
-            font-family: cursive;
+            font-family:'Courier New', Courier, monospace;
+            font-weight: bold;
         }
         .item2 {
             background-color: #FEFBEA;
