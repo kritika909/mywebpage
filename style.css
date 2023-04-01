@@ -4,7 +4,7 @@
         } 
         @font-face {
             font-family: "The-Meshroom";
-            src: url(/The-Meshroom.ttf);
+            src: url("../mywebpage/The-Meshroom.ttf")format('truetype');
         }
         .h1{
             
