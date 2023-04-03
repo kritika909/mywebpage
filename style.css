@@ -18,7 +18,8 @@
             margin: auto;
             border-radius: 20px;
             height: 500px;
-            width: 500px;     
+            width: 500px;  
+            transition: transform 0.5s;
         }
         .h{
             
@@ -39,6 +40,7 @@
             height: 450px;
             width: 500px;
             margin: auto;
+            transition: transform 0.5s;
         }
         .container{
             background-color: #576b33;
@@ -55,7 +57,8 @@
             align-self: center;
             height: 250px;
             width: 250px;
-            border-radius:10px ;  
+            border-radius:10px ; 
+            transition: transform 0.5s;
               
         }
         img{
@@ -68,7 +71,20 @@
             border-radius: 20px;
             height: 100px;
             width: 500px;
-            margin: auto;    
+            margin: auto; 
+            transition: transform 0.5s;
+        }
+        .item:hover{
+            transform: translateY(-20px);
+        }
+        .item1:hover{
+            transform: translateY(-10px);
+        }
+        .item2:hover{
+            transform: translateY(-10px);
+        }
+        .item3:hover{
+            transform: translateY(-10px);
         }
         
     
