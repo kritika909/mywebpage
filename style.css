@@ -88,8 +88,12 @@
         }
         
         @media only screen and (max-width: 600px){
-                  .item{
-                    display: inline;
+                  .container{
+                    /*display: inline;
+                    vertical-align: auto;*/
+                    display:flex;
+                    flex-direction: column;
+
                   }
         }
         
